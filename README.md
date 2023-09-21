@@ -15,7 +15,7 @@ Name : Aman
 |   4      |  05-09-2023 |      lab04       |  A Taste of Success: The Restaurant Management System | https://github.com/AmanRana07/MscDSB-MDS171-23122105-Aman/blob/main/Lab%2004.py                      |
 |   5      |  12-09-2023 |      lab05       | Write a program for collecting a string from the user and counting the number of vowels|https://github.com/AmanRana07/MscDSB-MDS171-23122105-Aman/blob/main/lab%2005.py    |
 |   6      |  14-09-2023 |      lab06       | Write a program for collecting a string from the user and counting the number of vowels|https://github.com/AmanRana07/MscDSB-MDS171-23122105-Aman/blob/main/lab%2006.py   |
-
+|   7      |  21-09-2023 |      lab07       | Write a program for define a class expense tracker that stores the expenses and income in a dictionary| https://github.com/AmanRana07/MscDSB-MDS171-23122105-Aman/tree/main/lab%2007   |
 
 
 
