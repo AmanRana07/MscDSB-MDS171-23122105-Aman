@@ -1,6 +1,6 @@
 # MscDSB-MDS171-23122105-Aman
-Name : Aman
-   Register No: 23122105
+Name : Aman    
+Register No: 23122105
 
 
 
