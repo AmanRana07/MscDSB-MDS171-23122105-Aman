@@ -40,6 +40,7 @@ class Petstore:
 
     # this is the function for Searching the Pets
     def search_pet(self, pet_data):
+        found_pet = False
         for pets in self.storing_pets:
             if (pet_data == pets["PetId"] or pet_data == pets["PetName"]) and pets[
                 "Sale"
@@ -52,8 +53,9 @@ class Petstore:
                 print(f"Breed: {pets['breed']}")
                 print()
                 print("--------------------------")
-            else:
-                print("Either This Pet Not Exist OR THe Pet Sold!!")
+                found_pet = True
+        if not found_pet:
+            print("Either This Pet Does Not Exist OR The Pet Is Sold!!")
 
     # This functio is For Viewing all The Pets
     def view_pet(self):
@@ -73,8 +75,10 @@ class Petstore:
     def sell_pet(self, pet_data):
         for pets in self.storing_pets:
             if pet_data == pets["PetId"] or pet_data == pets["PetName"]:
-                pets["Sale"] = "Sold"
-                print("You Successfully Sale the Pet!!")
-
-            else:
-                print("The Pet Not Exist!!")
+                if pets["Sale"] == "Available":
+                    pets["Sale"] = "Sold"
+                    print("You Successfully Bought the Pet!!")
+                else:
+                    print("The Pet is already Sold!!")
+                return
+        print("The Pet Not Exist!!")
