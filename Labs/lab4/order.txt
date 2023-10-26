@@ -1,0 +1,22 @@
+Total Order Till Date: 0
+Total Price from Orders to Date: 400.0
+---------------------------------
+Name: Aman
+Phone Number: 23234234
+Food Price: 200.0
+Total qty: 2
+Total Guest: 2
+Date: 20-20-2002
+Total price For This Order: 400.0
+---------------------------------
+Total Order Till Date: 0
+Total Price from Orders to Date: 700.0
+---------------------------------
+Name: Sonalika
+Phone Number: 223222343243
+Food Price: 100.0
+Total qty: 3
+Total Guest: 3
+Date: 20-02-2002
+Total price For This Order: 300.0
+---------------------------------
